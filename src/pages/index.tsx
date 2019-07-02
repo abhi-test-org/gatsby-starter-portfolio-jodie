@@ -113,7 +113,7 @@ const Index: React.FunctionComponent<PageProps> = ({ data: { firstProject, three
         </FirstProject>
         <AboutUs to="/about" aria-label="Visit my about page">
           <Img fluid={aboutUs.childImageSharp.fluid} />
-          <span>About!!</span>
+          <span>About!</span>
         </AboutUs>
         <ThreeProjects>
           {threeProjects.nodes.map(project => (
